@@ -5,3 +5,8 @@ int main()
     printf("Hello World\n");
     return 0;
 }
+
+int foo()
+{
+    return 0;
+}
