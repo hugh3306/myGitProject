@@ -54,7 +54,9 @@ int delete_element(ListElement **head, ListElement *delete) {
 		 }
 		 element = element->next;
 	}
-	printf("%s do not fine elemnt to delete\n");
+	printf("%s do not fine elemnt to delete\n", __func__);
+	
+	return 0;
 }
 
 void delete_list(ListElement **head) {
